@@ -9,11 +9,17 @@ This project is a simple web-based application that allows users to upload an im
 - User-friendly interface with HTML & CSS.
 
 ## Project Structure
+
 ├── app.py # Flask application to handle requests 
-├── train.py # Script for training the deep learning model 
+
+├── train.py # Script for training the deep learning model
+
 ├── templates/ # Folder for HTML templates 
+
              ├── index.html # Frontend upload page 
+             
              ├── result.html # Prediction result display page 
+             
 ## Technologies Used
 - Flask (Backend)
 - TensorFlow/Keras (Model Training)
